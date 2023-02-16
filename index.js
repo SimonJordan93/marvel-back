@@ -7,8 +7,8 @@ app.use(express.json());
 app.use(cors());
 
 // My Routes (fixed)
-const charactersRouter = require("./routes/characters");
-const comicsRouter = require("./routes/comics");
+const charactersRouter = require("./Routes/characters");
+const comicsRouter = require("./Routes/comics");
 
 // Use Routes
 app.use(charactersRouter);
