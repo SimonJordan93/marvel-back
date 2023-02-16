@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// My Routes
+// My Routes (fixed)
 const charactersRouter = require("./routes/characters");
 const comicsRouter = require("./routes/comics");
 
